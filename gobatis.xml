@@ -1,0 +1,16 @@
+<gobatis>
+    <typeAlias alias="" type=""/>
+
+    <resultMap id="" type="">
+        <result property="" column=""/>
+        <result property="username" column="user_name"/>
+    </resultMap>
+
+
+    <select id="selectById" resultType="map">
+        select * from corp where id=$1
+    </select>
+    <insert id="insertCorp" resultType="map">
+        insert into corp(id,name,value) values(default,$1,$2)
+    </insert>
+</gobatis>
