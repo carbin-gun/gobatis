@@ -1,2 +1,2 @@
 # gobatis
-database acess like mybatis.
+golang database access like mybatis.
